@@ -1,0 +1,319 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image: url("../images/connectwork.png");
+    
+}
+.nav-bar{
+    height:55px;
+    margin:0;
+    padding: 0;
+    width: 100%;
+    overflow: visible;
+    
+    
+}
+/* contact body  */
+.body-contact{
+    color : white;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    height:560px;
+    overflow: scroll;
+    border: ridge;
+  border-color: white;
+  border-width: 12px;
+  border-radius: 7px; 
+  background-color: dimgray;
+  
+
+}
+/* about body  */
+.body-index{
+    color : white;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 10px;
+    width: 960px;
+    height: 60%;
+    overflow: scroll;
+    border: ridge;
+  border-color: white;
+  border-width: 12px;
+  border-radius: 7px; 
+  position: center;
+  background-color: dimgray;
+  
+}
+
+/* Portfolio body  */
+.body-portfolio{
+    color : white;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    width: 800px;
+    height: 700px;
+    overflow: scroll;
+    border: ridge;
+  border-color: white;
+  border-width: 12px;
+  border-radius: 7px; 
+  background-color: dimgray;
+}
+
+.contact-font{
+    color:black;
+    font-weight: bold;
+}
+/* Sticky header  */
+header{
+    left: 0; 
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-family: Helvetica;
+    position: sticky;
+    top: 0;
+    background-size: contain;
+    
+   
+}
+/* sticky footer  */
+footer { 
+    position: fixed; 
+    left: 0; 
+    bottom: 0; 
+    width: 100%; 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    font-size: 12px;
+}
+/*links for within the website*/
+.item-link{
+    color : white;
+    text-decoration: none;
+    
+}
+#nav-connect{
+    height:45px;
+    float: left;
+    margin-left:20%;
+}
+
+
+/* links to other websites */
+.connect{
+    width: 25px;
+    height:25px;
+    padding:5px;
+    margin-right: 200px;
+}
+
+
+/* My name in the header  */
+#name{
+    margin-left: 20%;
+    margin-top:0;
+    padding:13px;
+    width: 245px;
+    background: goldenrod;
+    float:left;
+    color:white;
+    font-family: Georgia;
+}
+
+/* header link lists  */
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+}
+li {
+    float: right;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+
+    
+}
+
+/* image sizes for project images  */
+.projects{
+    width:175px;
+    height:175px;
+    padding: 10px;
+    margin: 30px;
+    border: solid;
+    border-width: 5px;
+    background:black;
+    float: left;   
+    position: relative;
+}
+
+/* contact text info for submit sheet*/
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+/* Style the submit button  */
+input[type=submit] {
+    background-color: goldenrod;
+    color:black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, dark gold color */
+input[type=submit]:hover {
+    background-color: gold;
+}
+
+/* Add a background color and some padding around the form */
+.container-contact {
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+/*personal photo*/
+.myself{
+    border:solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 150px; 
+    padding:5px;
+    background:white;
+    float: left;
+    margin: 0 15px 0 15px;
+    height: 180px;
+}
+.writing{
+        position: relative;
+        text-align: left;
+        color: white;
+}
+/*pictures*/
+.hangman {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -230px;
+   left: -50px;
+   position: absolute;
+   width:150px;
+
+}
+.rpg-game {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -230px;
+   left: 210px;
+   position: absolute;
+   width:150px;
+}
+.trivia {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -230px;
+   left: 480px;
+   position: absolute;
+   width:150px;
+}
+.info-widget {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -490px;
+   left: -50px;
+   position: absolute;
+   width:150px;
+}
+.rock-paper-scissors {
+    text-align: center;
+    color: white;
+    background: black;
+    margin-right: 600px;
+    margin-left:90px;
+   padding: 20px;
+   bottom: -490px;
+   left: 210px;
+   position: absolute;
+   width:150px;
+}
+p{
+    font-family: sans-serif;
+    line-height: 150%;
+    
+}
+.connect-connect{
+    font-family: sans-serif;
+    text-align: center;
+}
+h2{
+    background: goldenrod;
+    width: 120px;
+    border-style: ridge;
+    border-color:goldenrod;
+    border-width: 10px;
+    text-align: center;
+    
+}
+@media screen and (max-width: 768px) {
+.wrapper{
+    width: 680px;
+}
+.body-index{
+    height: 80%;
+}
+p{
+    font-size: 24px;
+}
+#nav-connect{
+    margin:0;
+}
+
+#name{
+    margin-left:0;
+    }
+li{
+    float:left;
+}
+}
+@media screen and (max-width: 380px) {
+    .wrapper{
+        width: 280px;
+    }
+}

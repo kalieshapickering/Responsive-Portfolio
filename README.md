@@ -1,2 +1,2 @@
-# Responsive-Portfolio
-mobile-responsive
+# Basic-portfolio
+Basic Portfolio making it mobile-responsive
