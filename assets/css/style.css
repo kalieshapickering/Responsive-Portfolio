@@ -211,7 +211,7 @@ input[type=submit]:hover {
         text-align: left;
         color: white;
 }
-/*pictures*/
+/*writting on pictures*/
 .hangman {
     text-align: center;
     color: white;
@@ -291,16 +291,23 @@ h2{
     text-align: center;
     
 }
+@media screen and (max-width: 980px) {
+    .wrapper{
+        width: 860px;
+    
+    }
+    .body-index{
+        width: 75%;
+    }
+}
 @media screen and (max-width: 768px) {
 .wrapper{
-    width: 680px;
+    width: 760px;
 }
 .body-index{
     height: 80%;
 }
-p{
-    font-size: 24px;
-}
+
 #nav-connect{
     margin:0;
 }
@@ -311,9 +318,80 @@ p{
 li{
     float:left;
 }
+.connect{
+    margin-right: 35%;
 }
-@media screen and (max-width: 380px) {
+.projects{
+    margin: 7%;
+ 
+}
+.trivia {
+   bottom: -34em;
+   left: -2em;
+}
+.hangman {
+   bottom: -15em;
+   left: -2em;
+
+}
+.rpg-game {
+   bottom: -15em;
+   left: 16.5em;
+
+}
+.info-widget {
+   bottom: -34em;
+   left: 16.5em;
+}
+.rock-paper-scissors {
+   bottom: -53em;
+   left: -2em;
+
+}
+.body-portfolio{
+    width: 90%;
+}
+}
+@media screen and (max-width: 640px) {
     .wrapper{
-        width: 280px;
+        width: 640px;
     }
+    .myself{
+       margin: 7em;
+    }
+    .trivia{
+    bottom: -46em;
+    left: -3.5em;
+    width:68%;
+ }
+ .hangman {
+    bottom: -14em;
+    left: -3.5em;
+    width:68%;
+ }
+ .rpg-game {
+    bottom: -30em;
+    left: -3.5em;
+    width:68%;
+ }
+ .info-widget {
+    bottom: -62.5em;
+    left: -3.5em;
+    width:68%;
+ }
+ .rock-paper-scissors {
+    bottom: -78.5em;
+    left: -3.5em;
+    width:68%;
+ }
+ .body-portfolio{
+    width: 60%;
+}
+.projects{
+    width: 18em;
+}
+.header{
+position: static;
+}
+
 }
